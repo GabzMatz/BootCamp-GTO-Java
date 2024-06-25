@@ -1,0 +1,56 @@
+Resumo git
+
+=========
+git config --global credential.helper
+
+server para salvar a chave tolkien na maquina
+=============
+
+git commit --amend -m 
+
+consegue altrar o nome do commit
+
+========================
+
+git commit --amend
+
+abre o vim 
+
+==========================
+
+git reset => desfaz cagada
+
+
+git reset --soft (copia o hash do commit)
+
+fica no staged
+
+git reset --mixed(copia o hash do commit)
+
+fica fora do stager precisa do git add .
+
+git reset --hard(copia o hash do commit)
+
+ele apaga tudo
+
+=============================
+git restore => tira do staged
+
+===================
+
+git checkout -b (nova branch)
+
+cria uma nova branch e manda pra ela
+
+=========================
+
+git branch -v
+
+mostra todos os ultimos commits de todas as branch
+
+
+====================
+
+git merge
+
+mescla branchs
